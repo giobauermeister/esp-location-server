@@ -8,6 +8,10 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giobauermeister/esp-location-server.git"
+  },
   "author": "Giovanni Bauermeister",
   "license": "MIT",
   "engines": {

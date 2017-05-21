@@ -1,0 +1,21 @@
+{
+  "name": "esp-location-server",
+  "version": "1.0.0",
+  "description": "A small nodejs server that shows an ESP8266 geolocation using its IP address",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giovanni Bauermeister",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.1"
+  }
+}

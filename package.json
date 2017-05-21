@@ -1,6 +1,6 @@
 {
   "name": "esp-location-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small nodejs server that shows an ESP8266 geolocation using its IP address",
   "main": "app.js",
   "scripts": {
